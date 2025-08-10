@@ -1,0 +1,33 @@
+---
+title: AcoFork Docs
+description: 胎教级的系统使用、项目部署教程文档
+template: splash
+hero:
+  tagline: 胎教级的系统使用、项目部署教程文档
+  image: 
+    file: '../../assets/acofork.jpg'
+  actions:
+    - text: 让我们开始吧！
+      link: /起步/开始/
+      icon: right-arrow
+    - text: 参观一下Starlight框架！
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 这里有？
+
+<CardGrid stagger>
+	<Card title="从零开始的教学" icon="heart">
+		无论什么项目，我们都从最基础的环境开始教授
+	</Card>
+	<Card title="组件化的教程" icon="puzzle">
+		如果你是初学者，可以从环境配置开始从零部署；如果你是大牛，可以直接快速部署，并且快速了解每个项目的坑点和注意事项
+	</Card>
+	<Card title="于Github开源" icon="github">
+		本项目是开源的，你可以在Github上查看和贡献代码
+	</Card>
+</CardGrid>
