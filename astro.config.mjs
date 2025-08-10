@@ -8,6 +8,10 @@ export default defineConfig({
 		starlight({
 			title: 'AcoFork Docs',
 			favicon: 'acofork.jpg',
+			logo: {
+				src: './src/assets/acofork.jpg',
+
+			},
 			editLink: {
     			baseUrl: 'https://github.com/afoim/AcoForkDoc/edit/main',
   				},

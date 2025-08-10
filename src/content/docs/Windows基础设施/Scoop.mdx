@@ -1,0 +1,27 @@
+---
+title: 安装Scoop这个强大的包管理器
+sidebar:
+  order: 2
+---
+
+# 简介
+
+Scoop是一个Windows上的包管理器。类似于Debian的APT包管理器。当您安装了Scoop后，例如安装Nodejs就可以通过 `scoop install nodejs` 这样一行简单的命令来进行安装
+
+# 安装Scoop
+
+> 如遇到网络问题，请科学上网
+
+进入官网 https://scoop.sh/
+
+打开Powershell（非管理员），输入命令
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+*如果你需要使用管理员身份去安装Scoop，默认情况下会阻止，请参考：* https://github.com/ScoopInstaller/Install?tab=readme-ov-file#for-admin
+
+安装完毕后，你就可以在终端中，使用 `scoop install xxx` 来安装包了
+
