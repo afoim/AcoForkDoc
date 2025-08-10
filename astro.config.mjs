@@ -8,6 +8,17 @@ export default defineConfig({
 		starlight({
 			title: 'AcoFork Docs',
 			favicon: 'acofork.jpg',
+			editLink: {
+    			baseUrl: 'https://github.com/afoim/AcoForkDoc/edit/main',
+  				},
+			defaultLocale: 'root',
+			locales: {
+				root: {
+				label: '简体中文',
+				lang: 'zh-CN',
+				},
+			},
+
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/afoim/AcoForkDoc' }],
 			// sidebar: [
 			// 	{
