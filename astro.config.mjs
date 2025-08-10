@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'AcoFork Docs',
-			favicon: 'src/assets/acofork.jpg',
+			favicon: 'acofork.jpg',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/afoim/AcoForkDoc' }],
 			// sidebar: [
 			// 	{
